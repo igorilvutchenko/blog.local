@@ -1,10 +1,13 @@
-<!DOCTYPE html>
+@extends('layout')
+
+@section('content')
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Пагинация</title>
 </head>
-<body>
+<body> -->
 	
 <div class="container">
     @foreach($articles as $article)
@@ -16,5 +19,8 @@
 
  {{ $articles->links() }}
 	
-</body>
-</html>
+<!-- </body>
+</html> -->
+
+	Hello World!
+@endsection
